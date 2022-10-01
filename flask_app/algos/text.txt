@@ -1,0 +1,70 @@
+The geospatial sciences face grand information technology (IT) challenges in the
+twenty-first century: data intensity, computing intensity, concurrent access
+intensity and spatiotemporal intensity. These challenges require the readiness of
+a computing infrastructure that can: (1) better support discovery, access and
+utilization of data and data processing so as to relieve scientists and engineers of
+IT tasks and focus on scientific discoveries; (2) provide real-time IT resources to
+enable real-time applications, such as emergency response; (3) deal with access
+spikes; and (4) provide more reliable and scalable service for massive numbers of
+concurrent users to advance public knowledge. The emergence of cloud
+computing provides a potential solution with an elastic, on-demand computing
+platform to integrate  observation systems, parameter extracting algorithms,
+phenomena simulations, analytical visualization and decision support, and to
+provide social impact and user feedback  the essential elements of the geospatial
+sciences. We discuss the utilization of cloud computing to support the intensities
+of geospatial sciences by reporting from our investigations on how cloud
+computing could enable the geospatial sciences and how spatiotemporal principles,
+the kernel of the geospatial sciences, could be utilized to ensure the benefits of cloud
+computing. Four research examples are presented to analyze how to: (1) search,
+access and utilize geospatial data; (2) configure computing infrastructure to
+enable the computability of intensive simulation models; (3) disseminate and
+utilize research results for massive numbers of concurrent users; and (4) adopt
+spatiotemporal principles to support spatiotemporal intensive applications. The
+paper concludes with a discussion of opportunities and challenges for spatial
+cloud computing (SCC).expansion of human activities (Brenner 1999, NRC 2009b). These changes happen
+within relevant spatial scope and range from as small as the individual or
+neighborhood to as large as the entire Earth (Brenner 1999). We use space-time
+dimensions to better record spatial related changes (Goodchild 1992). To understand, protect and improve our living environment, humans have been accumulating
+valuable records about the changes occurring for thousands of years or longer. The
+records are obtained through various sensing technologies, including our human
+eyes, touch and feel, and more recently, satellites, telescopes, in situ sensors and
+sensor webs (Montgomery and Mundt 2010). The advancements of sensing
+technologies have dramatically improved the accuracy and spatiotemporal scope of
+the records. Collectively, we have accumulated exabytes of records as data, and these
+datasets are increasing at a rate of petabytes daily (Hey et al. 2009). Scientists
+developed numerous algorithms and models to test our hypotheses about the changes
+to improve our capability to understand history and to better predict the future
+(Yang et al. 2011a). Starting from the simple understanding and predictions of
+geospatial phenomena from our ancestors thousands of years ago, we can now
+understand and predict more complex Earth events, such as earthquakes and
+tsunamis (NRC 2003, NRC 2011), environmental issues (NRC 2009a), and global
+changes (NRC 2009b), with greater accuracy and better time and space coverage.
+This process helped generate more geospatial information, processing technologies,
+and geospatial knowledge (Su et al. 2010) that form the geospatial sciences. Even
+with twenty-first century computing technologies, geospatial sciences still have grand
+challenges for information technology (Plaza and Chang 2008, NRC 2010),
+especially with regard to data intensity, computing intensity, concurrent intensity
+and spatiotemporal intensity (Yang et al. 2011b):
+ Data intensity (Hey et al. 2009): Support of massive data storage, processing,
+and system expansion is a long-term bottleneck in geospatial sciences (Liu
+et al. 2009, Cui et al. 2010). The globalization and advancements of data
+sensing technologies helps us increasingly accumulate massive amounts of
+data. For example, satellites collect petabytes of geospatial data from space
+every day, while in situ sensors and citizen sensing activities are accumulating
+data at a comparable or faster pace (Goodchild 2007). These datasets are
+collected and archived at various locations and record multiple phenomena of
+multiple regions at multiple scales. Besides these characteristics, the datasets
+have other heterogeneity problems, including diverse encoding and meaning of
+datasets, the time scale of the phenomena and service styles that range from
+off-line ordering to real-time, on-demand downloading. Data sharing
+practices, which are required to study Earth phenomena, pose grand
+challenges in organizing and administering data content, data format, data
+service, data structure and algorithms, data dissemination, and data discovery,
+access and utilization (Gonzalez et al. 2010).
+ Computing intensity: The algorithms and models developed based on our
+understanding of the datasets and Earth phenomena are generally complex
+and are becoming even more complex with the advancement of improved
+understanding of the spatiotemporal principles driving the phenomena. The
+execution of these processes is time consuming, and often beyond our
+computing capacity (NRC 2010). These computing intensive methods extend
+306 C. Yang et al.
