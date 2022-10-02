@@ -42,11 +42,11 @@ List the ready features here:
 
 
 ## Screenshots
-![Homepage](./img/homepage.png)
-![search](./img/search.png)
-![empty search](./img/search_empty.png)
-![fact](./img/fact.png)
-![quiz](./img/quiz.png)
+![Homepage](./imgs/homepage.png)
+![search](./imgs/search.png)
+![empty search](./imgs/search_empty.png)
+![fact](./imgs/fact.png)
+![quiz](./imgs/quiz.png)
 
 
 
