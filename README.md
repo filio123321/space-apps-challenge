@@ -47,6 +47,7 @@ List with the ready features here:
 ![empty search](./imgs/search_empty.png)
 ![fact](./imgs/fact.png)
 ![quiz](./imgs/quiz.png)
+![quiz score](./imgs/quiz_score.png)
 
 
 
