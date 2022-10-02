@@ -44,7 +44,9 @@ export default function App() {
       </View>
 
       <View style={styles.aboutWrapper}>
-        <Text style={styles.about}>About MARS-O</Text>
+        <TouchableOpacity onPress={ () => Linking.openURL('https://github.com/filio123321/space-apps-challenge')}>
+          <Text style={styles.about}>About MARS-O</Text>
+        </TouchableOpacity>
       </View>
 
     </View>
