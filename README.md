@@ -69,7 +69,6 @@ Project is: _in progress_
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
 - There are faster ways to scan, categorize and input inside db than what we're useing.
@@ -83,7 +82,7 @@ To do:
 ## Acknowledgements
 Give credit here.
 - This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was based on [this challenge]([https://www.example.com](https://2022.spaceappschallenge.org/challenges/2022-challenges/science-legacy/details)) from the [space apps challenges](https://2022.spaceappschallenge.org/challenges/).
 - Many thanks to...
 
 
