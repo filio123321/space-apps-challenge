@@ -1,5 +1,5 @@
 # Project Name
-> MARS-O is a software/API that reads, analyzes and categorizes any documents so that they can be easily and quickly found later. We also provide a mobile app for easy access to the API and , where you can enrich and use your space knowledge with our “Daily fact” & “Daily Quiz”.
+> MARS-O is a software/API that reads, analyzes and categorizes any documents, so that they can be easily and quickly found later. We also provide a mobile app for easy access to the API and , where you can enrich and use your space knowledge with our “Daily fact” & “Daily Quiz”.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
@@ -17,9 +17,9 @@
 
 
 ## General Information
-- Mars-O is an easy to use ios and android app.
-- Nasa has a big repository of files which prove difficult to find specific documents to find. Here comes Mars-O.
-- Marso-o scans and creates a short summary of every document in given repository, which then is used to compare to an input string and find a ratio. Documents are sorted by ratio (and for easy use displayed on our app) 
+- MARS-O is an easy to use IOS and ANDROID app.
+- Nasa has a big repository of files which prove difficult to find specific documents to find. Here comes MARS-O.
+- MARS-O scans and creates a short summary of every document in given repository, which then is used to compare to an input string and find a ratio. Documents are sorted by ratio (and for easy use displayed on our app). 
 
 
 ## Technologies Used
@@ -36,18 +36,22 @@
 
 ## Features
 List the ready features here:
-- Api access to categorized documents
-- App for easy use on mobile
-- Random facts about space to enrichen your knowledge
+- API access to categorized documents;
+- Mobile App for easy use;
+- Random facts about space to enrichen your knowledge.
 
 
 ## Screenshots
 ![Homepage](./imgs/homepage.png)
-![search](./imgs/search.png)
+![search](./imgs/search.jpg)
 ![empty search](./imgs/search_empty.png)
 ![fact](./imgs/fact.png)
 ![quiz](./imgs/quiz.png)
 
+
+
+
+<!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Setup
@@ -64,7 +68,7 @@ Provide various use cases and code examples here.
 
 
 ## Project Status
-Project is: _in progress_
+Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
 
 ## Room for Improvement
