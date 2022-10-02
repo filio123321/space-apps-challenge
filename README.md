@@ -23,16 +23,22 @@
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Flask - version 2.1.2
+- nltk - version 3.7
+- opencv_python - version 4.5.1.48
+- pdf2image - version 1.16.0
+- pdfminer - version 20191125
+- spacy - version 3.4.1
+- transformers - 4.22.2
+- react-native - 0.70
+- sqlite - version 3.34
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Api access to categorized documents
+- App for easy use on mobile
+- Random facts about space to enrichen your knowledge
 
 
 ## Screenshots
