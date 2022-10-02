@@ -43,7 +43,7 @@ List the ready features here:
 
 ## Screenshots
 ![Homepage](./imgs/homepage.png)
-![search](./imgs/search.png)
+![search](./imgs/search.jpg)
 ![empty search](./imgs/search_empty.png)
 ![fact](./imgs/fact.png)
 ![quiz](./imgs/quiz.png)
