@@ -1,5 +1,5 @@
 # Project Name
-> MARS-O is a software/API that reads, analyzes and categorizes any documents so that they can be easily and quickly found later. We also provide a mobile app for easy access to the API and , where you can enrich and use your space knowledge with our “Daily fact” & “Daily Quiz”.
+> MARS-O is a software/API that reads, analyzes and categorizes any documents, so that they can be easily and quickly found later. We also provide a mobile app for easy access to the API and , where you can enrich and use your space knowledge with our “Daily fact” & “Daily Quiz”.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
@@ -17,9 +17,9 @@
 
 
 ## General Information
-- Mars-O is an easy to use ios and android app.
-- Nasa has a big repository of files which prove difficult to find specific documents to find. Here comes Mars-O.
-- Marso-o scans and creates a short summary of every document in given repository, which then is used to compare to an input string and find a ratio. Documents are sorted by ratio (and for easy use displayed on our app) 
+- MARS-O is an easy to use IOS and ANDROID app.
+- NASA has a big repository of files which prove difficult to find specific documents to find. Here comes MARS-O.
+- MARS-O scans and creates a short summary of every document in given repository, which then is used to compare to an input string and find a ratio. Documents are sorted by ratio (and for easy use displayed on our app).
 
 
 ## Technologies Used
@@ -35,10 +35,10 @@
 
 
 ## Features
-List the ready features here:
-- Api access to categorized documents
-- App for easy use on mobile
-- Random facts about space to enrichen your knowledge
+List with the ready features here:
+- API access to categorized documents;
+- Mobile App for easy use;
+- Random facts about space to enrichen your knowledge.
 
 
 ## Screenshots
@@ -52,7 +52,7 @@ List the ready features here:
 
 ## Setup
 
-Install python libaries `python -m pip install -r requirements.txt` and DONT'T forget to change all ip varibles in flask_app/app.py.
+Install python libaries `python -m pip install -r requirements.txt` and DONT'T forget to change all IP varibles in flask_app/app.py.
 
 
 ## Usage
@@ -60,7 +60,7 @@ Install python libaries `python -m pip install -r requirements.txt` and DONT'T f
 Start the flask app first:
 `python flask_app/app.py`
 
-then start the expo go mobile app inside `mobile_all`:
+Then start the expo go mobile app inside `mobile_all`:
 `cd mobile_app`
 `npm start`
 
@@ -70,12 +70,12 @@ Project is: _in progress_
 
 ## Room for Improvement
 Room for improvement:
-- There are faster ways to scan, categorize and input inside db than what we're useing.
+- There are faster ways to scan, categorize and input inside db than what we're using.
 - Progressive loading for photos in the search section in the mobile app.
 
 To do:
-- Finish Quiz page
-- Find api for quiz questions so they change and don't remain the same.
+- Finish Quiz page.
+- Find API for quiz questions, so they change and don't remain the same.
 
 
 ## Acknowledgements
