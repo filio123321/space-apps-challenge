@@ -1,5 +1,5 @@
 # Project Name
-> MARS-O is a software/API that reads, analyzes and categorizes any documents, so that they can be easily and quickly found later. We also provide a mobile app for easy access to the API and , where you can enrich and use your space knowledge with our “Daily fact” & “Daily Quiz”.
+> MARS-O is a software/API that reads, analyzes and categorizes any documents so that they can be easily and quickly found later. We also provide a mobile app for easy access to the API and , where you can enrich and use your space knowledge with our “Daily fact” & “Daily Quiz”.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
@@ -17,9 +17,9 @@
 
 
 ## General Information
-- MARS-O is an easy to use IOS and ANDROID app.
-- Nasa has a big repository of files which prove difficult to find specific documents to find. Here comes MARS-O.
-- MARS-O scans and creates a short summary of every document in given repository, which then is used to compare to an input string and find a ratio. Documents are sorted by ratio (and for easy use displayed on our app). 
+- Mars-O is an easy to use ios and android app.
+- Nasa has a big repository of files which prove difficult to find specific documents to find. Here comes Mars-O.
+- Marso-o scans and creates a short summary of every document in given repository, which then is used to compare to an input string and find a ratio. Documents are sorted by ratio (and for easy use displayed on our app) 
 
 
 ## Technologies Used
@@ -36,39 +36,36 @@
 
 ## Features
 List the ready features here:
-- API access to categorized documents;
-- Mobile App for easy use;
-- Random facts about space to enrichen your knowledge.
+- Api access to categorized documents
+- App for easy use on mobile
+- Random facts about space to enrichen your knowledge
 
 
 ## Screenshots
 ![Homepage](./imgs/homepage.png)
-![search](./imgs/search.jpg)
+![search](./imgs/search.png)
 ![empty search](./imgs/search_empty.png)
 ![fact](./imgs/fact.png)
 ![quiz](./imgs/quiz.png)
 
 
 
-
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+Install python libaries `python -m pip install -r requirements.txt` and DONT'T forget to change all ip varibles in flask_app/app.py.
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
 
-`write-your-code-here`
+Start the flask app first:
+`python flask_app/app.py`
 
+then start the expo go mobile app inside `mobile_all`:
+`cd mobile_app`
+`npm start`
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _in progress_
 
 
 ## Room for Improvement
