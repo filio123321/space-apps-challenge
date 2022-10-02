@@ -17,11 +17,9 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Mars-O is an easy to use ios and android app.
+- Nasa has a big repository of files which prove difficult to find specific documents to find. Here comes Mars-O.
+- Marso-o scans and creates a short summary of every document in given repository, which then is used to compare to an input string and find a ratio. Documents are sorted by ratio (and for easy use displayed on our app) 
 
 
 ## Technologies Used
