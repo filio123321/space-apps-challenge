@@ -10,15 +10,12 @@ app.config['SECRET_KEY'] = 'super-secret-key-123456'
 
 db = SQLAlchemy(app)
 
-
-
 class Document(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     summary = db.Column(db.String(1024), unique=False, nullable=False)
     starting_text = db.Column(db.String(256), unique=False, nullable=False)
     filename = db.Column(db.String(256), unique=False, nullable=False)
     
-
 
 @app.route('/', methods=['GET'])
 def index():
