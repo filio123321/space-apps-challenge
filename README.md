@@ -42,7 +42,15 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Homepage](./img/homepage.png)
+![search](./img/search.png)
+![empty search](./img/search_empty.png)
+![fact](./img/fact.png)
+![quiz](./img/quiz.png)
+
+
+
+
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
