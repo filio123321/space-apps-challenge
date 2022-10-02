@@ -50,10 +50,6 @@ List the ready features here:
 
 
 
-
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
 ## Setup
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
@@ -68,7 +64,7 @@ Provide various use cases and code examples here.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _in progress_
 
 
 ## Room for Improvement
