@@ -72,12 +72,12 @@ Project is: _in progress_
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- There are faster ways to scan, categorize and input inside db than what we're useing.
+- Progressive loading for photos in the search section in the mobile app.
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- Finish Quiz page
+- Find api for quiz questions so they change and don't remain the same.
 
 
 ## Acknowledgements
