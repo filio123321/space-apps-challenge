@@ -1,0 +1,10 @@
+Flask==2.1.2
+Flask_SQLAlchemy==2.5.1
+nltk==3.7
+numpy==1.22.4
+opencv_python==4.5.1.48
+pdf2image==1.16.0
+pdfminer==20191125
+pdfminer.six==20220524
+spacy==3.4.1
+transformers==4.22.2
