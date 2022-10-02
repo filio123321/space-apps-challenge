@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { StyleSheet, Text, View, Button, TouchableOpacity, FlatList, Image, Linking } from "react-native";
 import { AntDesign } from '@expo/vector-icons'; 
 
-
 const Document = (props) => {
     return (
         <View style={styles.container}>

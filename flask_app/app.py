@@ -34,7 +34,9 @@ def index():
             end_jsson.append({'summary': item[1].summary, 'starting_text': item[1].starting_text,
                               'id': item[1].id, 'ratio': str(item[0])[:6], 'link': f'http://192.168.1.10:5000/docs/{item[1].id}',
                               'front': f'http://192.168.1.10:5000/photo/{item[1].id}/front',
-                              'back': f'http://192.168.1.10:5000/photo/{item[1].id}/back'}) # ! change link ip and port
+                              'back': f'http://192.168.1.10:5000/photo/{item[1].id}/back', 
+                              'badFront': f'http://192.168.1.10:5000/photo/bad/{item[1].id}/front',
+                             'badBack': f'http://192.168.1.10:5000/photo/bad/{item[1].id}/back'}) # ! change link ip and port
             
         return jsonify(end_jsson)
     else:
@@ -49,7 +51,18 @@ def front_photo(id):
 def back_photo(id):
     # return photo file
     return send_file(fr'./photo/back/{id}.jpg', mimetype='image/gif')
-    
+
+
+@app.route('/photo/bad/<id>/front', methods=['GET'])
+def bad_front_photo(id):
+    # return photo file
+    return send_file(fr'./photo/bad/front/{id}.jpg', mimetype='image/gif')
+
+@app.route('/photo/bad/<id>/back', methods=['GET'])
+def bad_back_photo(id):
+    # return photo file
+    return send_file(fr'./photo/bad/back/{id}.jpg', mimetype='image/gif')
+
 
 @app.route('/docs/<id>', methods=['GET'])
 def get_doc(id=None):

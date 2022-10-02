@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Document from './components/Document';
 
 
+
 export default function App() {
 
   const [current, setCurrent] = useState('Home');
@@ -11,6 +12,10 @@ export default function App() {
   const [requests, setRequests] = useState([]);
   const [isLoading, setLoading] = useState(false);
   const [iconShow, setIconShow] = useState(true);
+  const factful = require('factful.js')
+  const facts = factful.fact()
+
+
 
   const HomePage = (
     <View style={styles.container}>
@@ -102,7 +107,7 @@ export default function App() {
               data={requests}
               keyExtractor={({ id }, index) => index.toString()}  
               renderItem={({ item }) => (
-                <Document similarity={item.ratio} link={item.link} front={item.front} back={item.back}/>
+                <Document similarity={item.ratio} link={item.link} front={item.badFront} back={item.badBack}/>
               )}
             />))}
           
@@ -116,8 +121,28 @@ export default function App() {
     </View>
   );
 
+  function getRandomSpaceFact() {
+    console.log(facts).space;
+  }
+
   const FactPage = (
     <View style={styles.container}>
+      <SafeAreaView style={styles.safeArea}/>
+      <View style={styles.titleWrapperFact}>
+        <Text style={styles.title}>Daily Fact</Text>
+      </View>
+      
+      <View style={styles.factWrapper}>
+        <Image style={styles.factImage} source={{uri: factful.nasa()}}/>
+
+        
+        <Text style={styles.factText}>{facts.space}</Text>
+        
+
+        <TouchableOpacity style={styles.backIconFact} onPress={ () => setCurrent('Home')}>
+          <Image source={require('./assets/BackIcon.png')}/>
+        </TouchableOpacity>
+      </View>
     </View>
   );
 
@@ -218,6 +243,55 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     bottom : 200,
   },
+  factText: {
+    fontSize: 20,
+    color: '#fff',
+    textAlign: 'center',
+    fontWeight: 'bold',
+    fontStyle: 'italic',
+    borderColor: '#8B8092',
+    borderRadius: 20,
+    borderWidth: 1,
+    padding: 8,
+    paddingHorizontal: 20,
+    backgroundColor: '#8B8092',
+    overflow: 'hidden',
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 60,
+    marginHorizontal: 20,
+    width: '95%',
+  },
+  factImage: {
+    width: '50%',
+    height: '50%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 50,
+    borderRadius: 20,
+  },
+  backIconFact: {},
+  factWrapper: {
+    flex: 0,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+
+  },
+  titleWrapperFact: {
+    flex: 0,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 20,
+    marginBottom: 20,
+  },
+  factTextWrapper: {
+    
+  },
+  
+
 
 
 

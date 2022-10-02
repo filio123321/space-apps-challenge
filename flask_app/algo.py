@@ -87,11 +87,20 @@ class Document:
         img = img[:img.shape[0]//2, :]
         cv2.imwrite(f'./photo/back/{id}.jpg', img)
         
+        # save images with bad quality
+        im = cv2.imread(f'./photo/front/{id}.jpg')
+        im = cv2.resize(im, (0,0), fx=0.2, fy=0.2)
+        cv2.imwrite(f'./photo/bad/front/{id}.jpg', im)
+        
+        im = cv2.imread(f'./photo/back/{id}.jpg')
+        im = cv2.resize(im, (0,0), fx=0.2, fy=0.2)
+        cv2.imwrite(f'./photo/bad/back/{id}.jpg', im)
+        
 
     def summarize(self, per=0.1):
         # slower but much better
 
-        return summarizer(self.text[:4096], max_length=450, min_length=400, do_sample=False)[0]['summary_text']
+        return summarizer(self.text[:3072], max_length=450, min_length=400, do_sample=False)[0]['summary_text']
         
     
     """def summarize(self, per=0.1):
