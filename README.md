@@ -69,7 +69,6 @@ Project is: _in progress_
 
 
 ## Room for Improvement
-
 Room for improvement:
 - There are faster ways to scan, categorize and input inside db than what we're useing.
 - Progressive loading for photos in the search section in the mobile app.
@@ -80,18 +79,12 @@ To do:
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
 - This project was based on [this challenge]([https://www.example.com](https://2022.spaceappschallenge.org/challenges/2022-challenges/science-legacy/details)) from the [space apps challenges](https://2022.spaceappschallenge.org/challenges/).
-- Many thanks to...
+- [Hrisi](https://github.com/karakonchul) - frontend & designs
+- [Strato](https://github.com/filio123321) - backed & frontend
+- [Chochi](https://github.com/Chochi44) - website
 
 
 ## Contact
 Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
