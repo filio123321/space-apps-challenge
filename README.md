@@ -85,6 +85,3 @@ To do:
 - [Chochi](https://github.com/Chochi44) - website
 
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
